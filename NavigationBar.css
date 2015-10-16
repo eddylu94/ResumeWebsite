@@ -1,0 +1,35 @@
+ul {
+    list-style: none;
+    position: absolute;
+}
+
+ul li{
+    padding: 0px 15px 0px 15px;
+    display: inline-block;
+    text-align: center;
+}
+
+ul li a{
+    display:table-cell;
+    text-decoration-color: #333;
+    background: none;
+    text-decoration: none;
+    margin: 0px;
+}
+
+ul li ul{
+    display: none;
+}
+
+ul li:hover {
+    height: 40px;
+    color: #000000;
+}
+
+
+ul li:hover ul{
+    display:table-cell;
+    text-align: left;
+    color: #FFCC00;
+    position: absolute;
+}
